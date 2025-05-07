@@ -19,6 +19,8 @@ RUN \
     apt-get update && \
     apt-get install -y amd-smi-lib
 
+ENV PATH="/opt/rocm/bin:${PATH}"
+
 ENTRYPOINT ["/opt/rocm/bin/amd-smi"]
 CMD ["--help"]
 

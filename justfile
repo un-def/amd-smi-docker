@@ -1,6 +1,6 @@
 image := 'un1def/amd-smi'
 rocm_version := '6.4'
-revision := '0'
+revision := '1'
 image_version := rocm_version + '-' + revision
 base_url := 'https://repo.radeon.com/amdgpu-install/' + rocm_version + '/ubuntu/noble/'
 
